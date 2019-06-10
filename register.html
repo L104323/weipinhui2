@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/register.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/register.js" ></script>
+		<script></script>
+	</head>
+	<body>
+		<!--头-->
+		<header>
+			<div id="top" class="t">
+				<div id="topC" class="c">
+					<i class="iconR"></i>
+					<i class="iconR"></i>
+				</div>
+			</div>
+		</header>
+		
+		<!--注册-->
+		<div id="register" class="t">
+			<div class="registerBox">
+				<div class="title">
+					<h3 class="l vip">会员注册</h3>
+					<span class="r">
+						<span class="even">已注册可</span>
+						<a class="direct" href="login.html">直接登录</a>
+					</span>
+				</div>
+				<div class="registerBody">
+					<div id="telBox" class="box0">
+						<div id="in">
+							<i class="iconR"></i>
+							<div class="s f">x</div>
+							<div class="s y">√</div>
+							<input type="text"value="" placeholder="请输入手机号码" id="tel" class="inputBox"/>
+						</div>
+						<div class="conplaint">请输入正确的手机号码</div>
+					</div>
+					<div id="six" class="box0">
+						<div id="securityCodeBox">
+							<i class="iconR"></i>
+							<div class="f">x</div>
+							<input type="text" placeholder="请输入验证码" id="secure" class="inputBox"/>
+							<a class="getSecurity r">获取验证码</a>
+						</div>
+						<div class="conplaint">请输入6位数字手机验证码</div>
+					</div>
+					<div id="ps" class="box0">
+						<div id="password">
+							<i class="iconR"></i>
+							<div class="f">x</div>
+							<input type="password" placeholder="密码由6-20位字母，数字和符号组合" id="pass" class="inputBox"/>
+						</div>
+						<div class="conplaint">请输入6-20位密码</div>
+					</div>
+					<div id="again" class="box0">
+						<div id="sure">
+							<i class="iconR"></i>
+							<div class="f">x</div>
+							<input type="text" placeholder="请再次输入上面的密码" id="passAgain" class="inputBox"/>
+						</div>
+						<div class="conplaint">请输入确认密码</div>
+					</div>
+					<div id="promise">
+						<span id="check l">
+							<input type="checkbox" id="yes"/>
+							<!--<label for="yes"></label>-->
+						</span>
+						<span id="item r">
+							我已阅读并接受以下条款：
+							<a href="#">《唯品会服务条款》</a>
+							<a href="#">《隐私条款》</a>
+							<a href="#">《唯品支付用户服务协议》</a>
+							<a href="#">《唯品信用服务协议》</a>
+						</span>			
+					</div>
+					<div id="nowRegisterBox">
+						<button disabled="disabled" id="nowRegister">立即注册</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="t">
+				<div id="foot" class="c">
+					Copyright 2008-2018 vip.com，All Rights Reserved ICP证：粤 B2-20080329
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

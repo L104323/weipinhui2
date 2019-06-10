@@ -1,0 +1,223 @@
+#topC{
+	height: 100px;
+	/*background-color: gold;*/
+}
+.iconR{
+	width: 125px;
+	height: 100px;
+	display: inline-block;
+	background-image: url(../img/registerLoginPic/registerLgoin.png);
+	/*background-color: greenyellow;*/
+}
+#topC .iconR:nth-child(1){
+	float: left;
+	background-position: 317px -58px;
+}
+#topC .iconR:nth-child(2){
+	width: 304px;
+	float: right;
+	background-position: 8px -1px;
+}
+#register{
+	height: 655px;
+	background-image: url(../img/registerLoginPic/bgImg.jpg);
+	background-position-x: -250px;
+	/*background-color: greenyellow;*/
+}
+/*******注册盒子***********/
+.registerBox{
+	width: 360px;
+	height: 555px;
+	float: right;
+	margin: 50px 150px auto auto;
+	background-color: white;
+}
+.title{
+	width: 300px;
+	padding-right: 30px;
+    padding-left: 30px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.vip{
+	font-size: 18px;
+    color: #666;
+}
+.direct{
+    color: #f10180;
+    font-size: 14px;   
+}
+.title a{
+	text-decoration: none;
+}
+.registerBody{
+	width: 300px;
+	height: 444px;
+	padding: 30px;
+	/*background-color: gold;*/
+}
+.box0{
+	width: 300px;
+	height: 67px;
+	/*background-color: greenyellow;*/
+}
+/****手机号码*****/
+#in{
+	width: 300px;
+	height: 46px;
+	position: relative;
+}
+.box0 .iconR{
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	width: 20px;
+	height: 22px;
+	/*background-color: gold;*/
+}
+#in .iconR{
+	background-position: -420px 169px;
+}
+.s{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	font-weight: 600;
+	position: absolute;
+	right: 12px;
+	top: 14px;
+	text-align: center;
+	line-height: 15px;
+}
+.f{	
+	border: 2px solid red;
+	color: red;
+	display: none;
+}
+.y{
+	border: 2px solid green;
+	color: green;
+	display: none
+}
+.inputBox{
+	width: 248px;
+	height: 32px;
+	padding: 6px 10px 6px 40px;
+	border: 1px solid #f64a4a;
+    line-height: 32px;
+    border-radius: 3px;
+    outline: 0;
+}
+.conplaint{
+	width: 300px;
+	height: 19px;
+	margin: 2px 0 5px 0;
+	color: red;
+	display: none;
+}
+/*********验证码*******/
+#securityCodeBox{
+	position: relative;
+}
+#securityCodeBox .iconR{
+	background-position: -444px 169px;
+}
+#securityCodeBox .f{
+	left: 128px;
+}
+#securityCodeBox .inputBox{
+	width: 106px;
+    margin-right: 10px;
+}
+.getSecurity{
+	width: 106px;
+	height: 44px;
+	display: block;
+    border: 1px solid #d0d0d0;
+    color: #999;
+    background: #d0d0d0;
+    cursor: not-allowed;
+    padding: 0 12px;  
+    font-size: 14px;   
+    line-height: 44px;
+    text-align: center;
+}
+#securityCodeBox a:hover{
+	color: #999;
+	text-decoration: none;
+}
+/*#six .conplaint{
+	display: block;
+}*/
+/****密码*******/
+#password{
+	position: relative;
+}
+#password .iconR{
+	background-position: -396px 169px;
+}
+/****确认密码****/
+#sure{
+	position: relative;
+}
+#sure .iconR{
+	background-position: -396px 169px;
+}
+/************/
+#promise{
+	width: 300px;
+	height: 75px;
+	/*background-color: gainsboro;*/
+}
+input[type="checkbox" i] {
+	width: 15px;
+	height: 15px;
+    margin: 3px 0.5ex;
+}
+/*label{  
+    width: 19px;
+    height: 16px;
+    display: block;
+	background-image: url(../img/registerLoginPic/checkIcon.png);
+	background-position: -48px 0;
+}*/
+#promise a{
+    color: #1d94d1;
+}
+#promise a:hover{
+    color: deepskyblue;
+    text-decoration: none;
+}
+#check,#item{
+	display: inline-block;
+}
+#check{
+	 width: 19px;
+	 height: 54px;
+}
+#item{
+    width: 276px;
+    height: 54px;
+    display: inline-block;
+}
+#nowRegister{
+	width:300px;
+    height: 42px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f10180;
+    color: white;
+    border: 1px solid #f10180;
+    font-size: 16px;
+    margin-top: 30px;
+}
+/******脚*********/
+#foot{
+	height: 78px;
+	/*background-color: gold;*/
+	text-align: center;
+	line-height: 78px;
+    color: #666;
+}

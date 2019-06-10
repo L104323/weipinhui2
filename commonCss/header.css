@@ -1,0 +1,346 @@
+.c{
+	width: 1000px;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 191px;
+	/*background-color: yellow;*/
+}
+/***********topNav顶部导航****************/
+#topNav{
+	height: 28px;
+	background-color: #f5f5f5;
+}
+#topNavC{
+	height: 28px;
+	/*background-color: chartreuse;*/
+}
+#address{
+	width: 71px;
+	height: 28px;
+	float: left;
+	line-height: 28px;
+	padding-left: 15px;
+	/*background-color: palegoldenrod;*/
+	position: relative;
+}
+/*三角形*/
+.trangle{
+	position: absolute;
+    top: 14px;
+    right: 10px;
+	width: 0;
+    height: 0;
+    border-width: 4px;
+    border-color: #999 transparent transparent transparent;
+    border-style: solid dashed dotted dashed;
+    vertical-align: top;
+    display: inline-block;
+}
+#topUl{
+	float: right;
+}
+#topUl .topBtn{
+	width: 75px;
+	height: 26px;
+	padding-left:12px;
+	padding-right:5px;
+	margin-left: -1px;
+	float: left;
+	line-height: 28px;
+	position: relative;
+	border: 1px solid #f5f5f5;
+}
+#topUl .topBtn:nth-child(1){
+	width:50px;
+}
+#topUl .topBtn:nth-child(3){
+	width: 50px;
+}
+#topUl .topBtn:nth-child(7){
+	width: 95px;
+}
+#topUl .topBtn:nth-child(10){
+	width: 55px;
+}
+#topUl a{
+	text-decoration: none;
+}
+#topUl a:hover{
+	color: #f10180;
+}
+.topBtn .trangle{
+	right: 23px;
+}
+.iconS{
+	width: 20px;
+	height: 28px;
+	display: inline-block;
+	/*background: deeppink;*/
+	background-image: url(../img/indexPicture/icon.png);
+}
+.topBtn::after{
+	content: '';
+	background-image: url(../img/indexPicture/icon.png);
+	background-position: -270px -177px;
+    width: 16px;
+    height: 26px;
+    /*background-color: greenyellow;*/
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    z-index: 1;
+}
+#phone .iconS{
+	float: left;
+	background-position:-290px -135px;
+}
+#giftPic{
+	margin-top: -6px;
+}
+/*我的特卖hover*/
+.topBtn:nth-child(6) ul{
+	position: absolute;
+	top: 28px;
+	left: -1px;
+	width: 100px;
+	height: 100px;
+	padding: 10px 0 0 10px;
+	background-color: white;
+	border: 1px solid #cdcdcd;
+	display: none;
+	z-index: 1;
+}
+#topUl .topBtn:nth-child(6):hover{
+	height: 30px;
+	background-color: white;
+	border-top: 1px solid #cdcdcd;
+	border-right: 1px solid #cdcdcd;
+	border-left: 1px solid #cdcdcd;
+	border-bottom: 1px solid white;
+	z-index: 2;
+} 
+#topUl .topBtn:nth-child(6):hover ul{
+	display: block;
+} 
+#topUl .topBtn:nth-child(6):hover::after{
+	background-image: none;
+	border-right: 1px solid #cdcdcd;
+	background-color: white;
+}
+/*#topUl .topBtn:nth-child(6):hover+.topBtn:nth-child(5)::after{
+	background-image: none;
+	border-right: 1px solid #cdcdcd;
+	background-color: white;
+}*/
+#topUl .topBtn:nth-child(6):hover .trangle{
+    margin-top: -5px;
+    border-style: solid;
+    border-color: transparent transparent #f10180 transparent;
+}
+
+/**************searchBox**************/
+#searchBox{
+	height: 100px;
+	padding-top: 20px;
+	background-color: white;
+}
+#search{
+	height: 100px;
+	/*background-color: deepskyblue;*/
+}
+#headerService{
+	width: 304px;
+	height: 100px;
+	float: left;
+	/*background: red;*/
+}
+#headerService .iconS{
+	width: 101px;
+	height: 100px;
+	/*background: yellow;*/
+	float: left;
+	background-image: url(../img/indexPicture/icon.png);
+}
+#headerService .iconS:nth-child(1){
+		background-position: 0px 0px;
+}
+#headerService .iconS:nth-child(2){
+		background-position: -101px 0px;
+}
+#headerService .iconS:nth-child(3){
+		background-position: -202px 0px;
+}
+#rSearch{
+	width: 500px;
+	height: 34px;
+	float: right;
+	padding: 33px 0 33px 0;
+	/*background: gray;*/
+}
+#info{
+	width: 389px;
+	height: 34px;
+	float: left;
+	background-color: #fa2a83;
+}
+#put{
+	width: 325px;
+	height: 32px;
+	padding-left: 10px;
+	float: left;
+	border: 1px solid #fa2a83;
+	outline: none;
+}
+#searchButton{
+	width: 51px;
+	height: 34px;
+	background-color: #fa2a83;
+	border: none;
+	float: right;
+	outline: none;
+}
+#searchButton .iconS{
+	width: 26px;
+	height: 32px;
+	margin-right: 9.5px;
+	/*background-color:yellow;*/
+	background-position: -69px -202px;
+}
+#shopCar{
+	width: 96px;
+	height: 32px;
+	line-height: 32px;
+	border:  1px solid #ccc;;
+	float: right;
+	background-color: #f6f7f9;
+}
+#shopCar .iconS{
+	width: 20px;
+	height: 32px;
+	float: left;
+	/*background-color:yellow;*/
+	background-position: -110px -202px;
+}
+.shopCount{
+	border-radius: 8px;
+    height: 16px;
+    width: 24px;
+    display: block;
+    float: right;
+    margin: 8px;
+    text-align: center;
+    color: white;
+    line-height: 16px;
+    background-color: #fa2a83;
+}
+/*********bottomNav底部导航*******************/
+#bottomNav{
+	height: 43px;
+	background-color: white;
+	box-shadow: 0 1px 1px gainsboro ;
+}
+#bottomNavC{
+	height: 43px;	
+	/*background-color: gainsboro;*/
+}
+.bottomNavBton{
+	padding: 0 10px;
+	line-height: 43px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+}
+.bottomNavBton a{
+	text-decoration: none;
+}
+.bottomNavBton:nth-child(1){
+	width: 136px;
+	margin-right: 20px;
+	background-color: #f10180;
+	position: relative;
+}
+.bottomNavBton:nth-child(1) a{
+	color: white;
+}
+.bottomNavBton:nth-child(2) a{
+	font-weight: 900;
+	color: #f10180;
+}
+.bottomNavBton a:hover{
+	color: #f10180;
+}
+#indexUl{
+	width: 156px;
+	position: absolute;
+	top: 43px;
+	left: 0;
+	font-size: 14px;
+	background-color: #f10180;
+	display: none;
+}
+#indexUl .hoverBton{
+	height: 43px;
+	position: relative;
+}
+.bottomNavBton:nth-child(1):hover #indexUl{
+	display: block;
+	color: white;
+	z-index: 2;
+}
+.bottomNavBton:nth-child(1):hover a{
+	color: white;
+}
+.hoverBton .three{
+	width: 587px;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	left: 156px;
+	padding: 20px;
+	background-color: white;
+	display: none;
+}
+.threeBox{
+	width: 567px;
+	height: 55px;
+	border-bottom: 1px solid gainsboro;
+}
+
+#indexUl .hoverBton:hover{
+	background-color: white;
+}
+#indexUl .hoverBton:hover .three{
+	display: block;
+}
+#indexUl .hoverBton:hover a{
+	color: #f10180;
+}
+.bottomNavBton:nth-child(13) .iconS{
+	width: 20px;
+	/*background-color: yellow;*/
+	background-position: -252px -112px;
+}
+.bottomNavBton:nth-child(13){
+	position: relative;
+}
+.bottomNavBton:nth-child(13) #moreUl{
+	position: absolute;
+	top: 43px;
+	left: 0;
+	width: 76.33px;
+	background-color: white;
+	z-index: 9;
+	display: none;
+}
+.moreUl .moreSecond{
+	height: 43px;
+}
+.bottomNavBton:nth-child(13):hover{
+	background-color: white;
+	box-shadow: 0 -5px 3px 0 #f5f5f5;
+}
+.bottomNavBton:nth-child(13):hover #moreUl{
+	display: block;
+}

@@ -1,0 +1,249 @@
+#topC{
+	height: 100px;
+	/*background-color: gold;*/
+}
+.iconR{
+	width: 125px;
+	height: 100px;
+	display: inline-block;
+	background-image: url(../img/registerLoginPic/registerLgoin.png);
+	/*background-color: greenyellow;*/
+}
+#topC .iconR:nth-child(1){
+	float: left;
+	background-position: 317px -58px;
+}
+#topC .iconR:nth-child(2){
+	width: 304px;
+	float: right;
+	background-position: 8px -1px;
+}
+#register{
+	height: 655px;
+	background-image: url(../img/registerLoginPic/bgImg.jpg);
+	background-position-x: -250px;
+	/*background-color: greenyellow;*/
+}
+/***脚*****/
+#foot{
+	height: 78px;
+	/*background-color: gold;*/
+	text-align: center;
+	line-height: 78px;
+    color: #666;
+}
+/*************/
+#loginBox{
+	width: 360px;
+	height: 460px;
+	float: right;
+	margin: 50px 150px auto auto;
+	background-color: white;
+}
+#loginTop{
+	width: 360px;
+	height: 50px;
+	background-color: white;
+	border-bottom: 1px solid #e0e0e0;
+}
+.topBox{
+	width: 180px;
+	height: 50px;
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+    cursor: pointer;
+    position: relative;
+}
+.topBox:nth-child(1)::after{
+	content: '';
+	width: 1px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background-color: #ccc;
+}
+.topBox:nth-child(2){
+	color: #f10180;
+}
+/***********/
+#countLogin{
+	width: 300px;
+    height: 279px;
+    margin: 0 30px;
+    /*background-color: pink;*/
+    display: block;
+}
+.inBox{
+	width: 300px;
+	height: 67px;
+	/*background-color: goldenrod;*/
+}
+.inBox:nth-child(1){
+	margin-top: 35px;
+}
+.info{
+	padding:6px 10px 6px 40px;
+    width: 248px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #b2b2b2;
+    outline: none;
+    /*border: 1px solid #f64a4a;*/
+}
+.infoF{
+	width: 300px;
+    height: 21px;
+    color: red;
+    display: none;
+    /*background-color: yellow;*/
+}
+
+
+#checkBox{
+	width: 300px;
+    height: 40px;
+     /*background-color: greenyellow;*/
+}
+#loginBtn{
+	width: 300px;
+	height: 46px;
+	background-color: #f43499;
+    border: 1px solid #f43499;
+    line-height: 46px;
+    margin-top: 4px;    
+    font-size: 16px;
+}
+#loginBtn a{
+	color: white;
+	text-decoration: none;
+}
+#loginBtn:hover{
+	background: hotpink;
+}
+/*****图标*****/
+.inBox{
+	position: relative;
+}
+.inBox .iconR{
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	width: 20px;
+	height: 22px;
+	/*background-color: yellow;*/
+}
+#countBox .iconR{
+	background-position: -468px 169px;
+}
+.f{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	font-weight: 600;
+	position: absolute;
+	right: 12px;
+	top: 14px;
+	text-align: center;
+	line-height: 15px;
+	border: 2px solid red;
+	color: red;
+	display: none;
+}
+#passBox .iconR{
+	background-position: -396px 169px;
+}
+/****底部********/
+#loginFoot{
+	width: 300px;
+    height: 76px;
+    background-color: white;
+    padding: 30px 30px 15px 30px;
+}
+#chat{
+	width: 300px;
+    height: 40px;
+    /*background-color: yellow;*/
+    margin-bottom: 12px;
+    position: relative;
+}
+#chat:after{
+	content: '';
+	width: 300px;
+	height: 1px;
+	background-color: #e0e0e0;
+	position: absolute;
+	top: 20px;
+	left: 0;
+}
+#chat .iconR{
+	position: absolute;
+	width: 40px;
+    height: 40px;
+    margin-left: 130px;
+    /*background-color: gainsboro;*/
+    background-position: -352px 167px;
+    z-index: 9;
+}
+.infoBtn{
+	float: left;
+	padding: 0 11px 0 10px;
+}
+.infoBtn:hover{
+	color: deeppink;
+}
+.infoBtn:nth-child(2){
+	border-left: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+}
+.infoBtn:nth-child(4){
+	color: gray;
+}
+/****二维码登录*********/
+#codeLogin{
+	width: 360px;
+    height: 228px;
+    padding-top: 36px;
+    display: none;
+    position: relative;
+    /*background-color: yellowgreen;*/
+}
+#codePic{
+	width: 150px;
+    height: 150px;
+    padding:10px;
+    background-color: white;
+    margin-left: 90px;
+    border: 1px solid #f0f0f0;
+    transition: .5s;
+}
+#sao{
+	width: 360px;
+    height: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+#sao .iconR{
+	width: 20px;
+    height: 20px;
+    /*background-color: gainsboro;*/
+    background-position: -602px 210px;  
+}
+.pepole{
+	color: red;
+}
+#phoneBox{
+	width: 120px;
+    height: 192px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    /*background-color: gold;*/
+   	opacity: 0;
+    background-position:-622px 224px;
+    transition: .5s;
+}

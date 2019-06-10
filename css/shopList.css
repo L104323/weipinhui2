@@ -1,0 +1,389 @@
+#listContain{
+	margin-top: 20px;
+}
+#listTop{
+	width: 968px;
+	height: 26px;
+	border: 1px solid #dfdfdf;
+    border-bottom: none;
+    position: relative;
+    line-height: 26px;
+    padding: 10px 10px 10px 20px;
+    background-color: #fff;
+}
+.ds{
+	font-size: 16px;
+}
+#listName{
+	margin-right: 20px;
+}
+#dic{
+	font-size: 18px;
+	font-weight: 600;
+}
+#restTime{
+	margin-left: 30px;
+}
+#collectNum{
+	width: 98px;
+	height: 22px;
+	border-radius: 11px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    border: 1px solid #dfdfdf;
+    float: right;
+}
+#restTime .iconfont{
+	font-size: 20px;
+	color: #f32b80;
+	font-weight: 600;
+}
+.cb,#collectNum .iconfont{
+	color: #f32b80;
+}
+#collectNum:hover{
+	background: #f32b80;
+}
+#collectNum:hover a,#collectNum:hover .iconfont,#collectNum:hover .cb{
+	color: white;
+	text-decoration: none;
+}
+#zero{
+	font-weight: 600;
+}
+/******分类******/
+#listSort{
+	width: 998px;
+	height: 112px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px dashed #ccc;
+	background: white;
+}
+#listSort ul{
+	width: 836px;
+	height: 122px;
+	float: right;
+	margin-top: 8px;
+	margin-right: 70px;
+}
+#st{
+	margin-top: 15px;
+	margin-left: 20px;
+	float: left;
+}
+.listBtn{
+	padding: 5px 10px 5px 10px;
+	float: left;
+	border: 1px solid white;
+	margin-right: 35px;
+	margin-bottom: 5px;
+}
+.listBtn:nth-child(1){
+	border: 1px solid #f10180;;	
+}
+.listBtn:nth-child(1) a{
+	color: #f10180;
+}
+/********尺码********/
+#size{
+	width: 998px;
+	height: 50px;
+	border: 1px solid #ccc;
+	border-top: none;
+	background: white;
+}
+#size ul{
+	margin: 0 auto;
+	float: right;
+	margin-top: -7px;	
+	margin-right: 494px;	
+}
+.sizeBtn{
+	padding: 5px 10px 5px 10px;
+	float: left;
+	border: 1px solid white;
+	margin-right: 30px;	
+}
+.sizeBtn:nth-child(1){
+	border: 1px solid #f10180;
+	
+}
+.sizeBtn:nth-child(1) a{
+	color: #f10180;
+}
+.listBtn:hover a,.sizeBtn:hover a{
+	color: hotpink;
+	text-decoration: none;
+}
+/*******筛选*******/
+#collectList{
+	width: 998px;
+	height: 46px;
+	margin: 0 auto;
+    border: 1px solid #dfdfdf;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+}
+#collectL{
+	width: 361px;
+	height: 46px;
+	float: left;
+}
+#collectR{
+	width: 235px;
+	height: 26px;
+	padding: 10px;
+	float: right;
+}
+.cBox{
+	height: 44px;
+	line-height: 44px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
+#zonghe,#pri,#dc{
+	border-right: 1px solid #dfdfdf;
+}
+.ls{
+	height: 44px;
+	line-height: 44px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+      url('iconfont.woff2') format('woff2'),
+      url('iconfont.woff') format('woff'),
+      url('iconfont.ttf') format('truetype'),
+      url('iconfont.svg#iconfont') format('svg');
+}
+#ic{
+	position: absolute;
+	top: 16px;
+	left: 45px;
+	width: 14px;
+	height: 26px;
+	line-height: 8px;
+	text-align: center;
+	display: inline-block;
+}
+#dc{
+	padding-right: 40px;
+}
+#lookShop{
+	width: 10px;
+	height: 10px;
+	border: 1px solid #dfdfdf;
+	background: white;
+}
+.cNum{
+	color: hotpink;
+}
+#num2{
+	margin-left: 20px;
+}
+#before{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background: #fafafa;
+    border: 1px solid #dbdbdb;
+    color: #d1d1d1;
+    margin-left: 20px;
+}
+.same{
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 3px;	
+}
+#collectR a{
+	width: 60px;
+	height: 24px;
+	display: inline-block;
+	background: white;
+    border: 1px solid #dbdbdb;
+    float: right;
+}
+#collectR a:hover{
+	color: hotpink;
+	text-decoration: none;
+	border: 1px solid hotpink;
+}
+/*input[type="checkbox"]{
+	width: 30px;
+	height: 30px;
+	background: white;
+	cursor: pointer;
+}*/
+#zonghe{
+	border: 1px solid #f10180;
+}
+#zonghe a{
+	color: #f10180;
+}
+.cBox a:hover,.ls a:hover{
+	color: #f10180;
+	text-decoration: none;
+}
+/*******衣服********/
+#goodsList{
+	width: 1020px;
+	margin: 0 auto;
+	background-color: gold;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.cloth{
+	width: 233px;
+	height: 407px;
+	padding: 10px;
+	border: 1px solid white;
+	background-color: white;
+	position: relative;
+}
+.clothPrice{
+	width: 225px;
+	height: 30px;
+	line-height: 30px;
+    background-color: #f10180;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.specialPrice{
+	font-family: ArialMT;
+    font-size: 24px;
+    margin-left: 2px;
+    color: white;
+}
+.afterP{
+	color: white;
+	font-size: 14px;
+}
+.vipPrice{
+ 	font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #666;
+}
+.marketPrice{
+	font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #999;
+    margin-left: 8px;
+}
+.clothDis{
+	margin-left: 8px;
+    font-size: 14px;
+    color: #999;
+}
+.pNum{
+	margin-bottom: 10px;
+}
+.cloth:hover{
+	border: 1px solid #e5e5e5;
+    box-shadow: 0 0 6px rgba(0,0,0,.1);
+}
+.hot{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 45px;
+	display: none;
+}
+.iconStation{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 68px;
+	height: 70px;
+	display: block;
+	background-image: url(../img/shopListPic/iconbg.png);
+	display: none;
+}
+/****页****/
+#page{
+	 height: 46px;
+}
+.aBox{
+	width: 44px;
+    height: 44px;
+    line-height: 44px;
+    display: inline-block;
+    border: 1px solid #b8b8b8;
+    color: #848585;
+    margin-left: 2px;
+    text-align: center;
+    border-radius: 3px;
+    transition: all .1s ease-out 0s;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+}
+.allPage{
+	margin-right: 10px;
+}
+#pageC{
+	width: 355px;
+	height: 46px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+#firstPage{
+	background-color: #f10180;;
+	color: white;
+	border: 1px solid #f10180;;
+}
+.aBox:hover{
+	border: 1px solid pink;
+	color: pink;
+	background-color: papayawhip;
+	text-decoration: none;
+}
+
+/*******可能喜欢*****/
+#listLike{
+	height: 300px;
+	margin-top: 40px;
+}
+#likeBrand{
+	width: 976;
+	height: 28px;
+    background: #f10180;
+    padding: 0 12px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.fc{
+	color: white;
+}
+.lBox{
+	width: 320px;
+	height: 193px;
+}
+.bBox{
+	width: 320px;
+	height: 40px;
+	line-height: 40px;
+}
+.ochF1{
+	margin-left: 15px;
+    font-size: 14px;
+    color: #333;
+}
+.dis2{
+	color: #f10180;
+    font-size: 18px;
+    margin-right: 4px;
+}
+.ochF2{
+	margin-right: 15px;
+    font-size: 14px;
+    color: #333;
+}

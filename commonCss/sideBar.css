@@ -1,0 +1,115 @@
+#sideBar{
+	width: 36px;
+	height: 100%;
+	background-color: black;
+	position: fixed;
+	right: 0;
+	/*overflow: hidden;*/
+}
+#sideBox{
+	margin-top: 80px;
+}
+.sideBtn{
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	margin-bottom: 3px;
+	font-size: 13px;
+	color: white;
+	/*border: 1px solid greenyellow;*/
+	position: relative;
+	cursor: pointer;
+}
+#sideBottom{
+	margin-top: 100px;
+}
+/****************/
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+      url('iconfont.woff2') format('woff2'),
+      url('iconfont.woff') format('woff'),
+      url('iconfont.ttf') format('truetype'),
+      url('iconfont.svg#iconfont') format('svg');
+}
+/**************************/
+#sideBox .sideBtn:nth-child(1){
+	height: 42px;
+}
+#sideBox .sideBtn:nth-child(1) .iconfont{
+	font-size: 20px;
+}
+#aa{
+	height: 127px;
+	padding: 20px 0;
+	font-size: 14px;
+	line-height: 20px;
+	background-color: #df147f;
+}
+#aa .iconfont{
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 24px;
+}
+#yuan{
+	width: 18px;
+	height: 18px;
+	font-size: 12px;
+	background: white;
+	border-radius: 50%;
+	color: red;
+	text-align: center;
+	line-height: 18px;
+	margin: 5px auto;
+}
+#money .iconfont, #brandCollect .iconfont,#shopCollect .iconfont,#trace .iconfont{
+	font-size: 25px;
+	line-height: 36px;
+}
+
+#sideBottom .iconfont{
+	font-size: 20px;
+	line-height: 36px;
+}
+#sideBar a{
+	color: white;
+	text-decoration: none;
+}
+.reBox{
+	width: 100px;
+	height: 36px;
+	position: absolute;
+	top: 0;
+	left: -150px;
+	background: white;
+	color: black;
+	width: 100px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 8px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #ddd;
+    border-right: none;
+    font-size: 14px;
+    text-align: center;
+    transition: .3s linear;
+    display: none;
+}
+.sideBtn:hover{
+	background: #df147f;
+}
+.sideBtn:hover .reBox{
+	display: block;
+	animation: moves 1s;
+	left: -117px;
+}
+@keyframes moves{
+	from{
+		opacity: 0;
+		left: -200px;
+	}
+	to{
+		left: -117px;
+	}
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="commonCss/header.css" />
+		<link rel="stylesheet" href="commonCss/footer.css" />
+		<link rel="stylesheet" href="commonCss/iconfont.css" />
+		<link rel="stylesheet" href="commonCss/sideBar.css" />
+		<link rel="stylesheet" href="css/shopList.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/shopList.js" ></script>
+		<script type="text/javascript" src="js/shopListData.js" ></script>
+	</head>
+	<body>
+		<!--侧边栏-->
+		<aside>
+			
+		</aside>
+		<!--头部-->
+		<header>
+			
+		</header>
+		<!--内容-->
+		<div id="listContain" class="c">
+			<div id="listTop">
+				<span class="ds" id="listName">欧时力ochirly品牌钜献专场</span>
+				<span id="dic">2.3</span>
+				<span class="ds">折起</span>
+				<span id="restTime">
+					<span class="iconfont">&#xe631;</span>
+					剩余
+					<em id="d">0</em>天
+					<em id="h">03</em>小时
+					<em id="m">1</em>分
+					<em id="s">05</em>秒
+					<em id="zero">0</em>
+				</span>
+				<div id="collectNum">
+					<a href="#">
+						<span class="iconfont">&#xe605;</span>
+						<span class="cb">收藏品牌</span>
+						(1)
+					</a>
+				</div>
+			</div>
+			<div id="listSort">
+				<dt id="st">分类：</dt>
+				<ul>
+					<li class="listBtn"><a href="#">全部分类</a></li>
+					<li class="listBtn"><a href="#">女款针织衫(256)</a></li>
+					<li class="listBtn"><a href="#">女款大衣</a></li>
+					<li class="listBtn"><a href="#">连衣裙(157)</a></li>
+					<li class="listBtn"><a href="#">女款衬衫(112)</a></li>
+					<li class="listBtn"><a href="#">半身裙(100)</a></li>
+					<li class="listBtn"><a href="#">女款羽绒服(84)</a></li>
+					<li class="listBtn"><a href="#">女款休闲裤(77)</a></li>
+					<li class="listBtn"><a href="#">女款牛仔裤(66)</a></li>
+					<li class="listBtn"><a href="#">女款卫衣(60)</a></li>
+					<li class="listBtn"><a href="#">女款卫衣(60)</a></li>
+					<li class="listBtn"><a href="#">女款卫衣(60)</a></li>
+					<li class="listBtn"><a href="#">女款外套(60)</a></li>
+					<li class="listBtn"><a href="#">女款连体衣(60)</a></li>
+					<li class="listBtn"><a href="#">女款T恤(60)</a></li>
+					<li class="listBtn"><a href="#">女款皮衣(60)</a></li>
+					<li class="listBtn"><a href="#">女款风衣(60)</a></li>
+				</ul>	
+			</div>
+			<div id="size">
+				<dt id="st">尺码：</dt>
+				<ul>					
+					<li class="sizeBtn"><a href="#">全部尺码</a></li>
+					<li class="sizeBtn"><a href="#">XS</a></li>
+					<li class="sizeBtn"><a href="#">S</a></li>
+					<li class="sizeBtn"><a href="#">M</a></li>
+					<li class="sizeBtn"><a href="#">L</a></li>
+					<li class="sizeBtn"><a href="#">XL</a></li>
+				</ul>
+			</div>
+			<div id="collectList">
+				<div id="collectL">
+					<div id="zonghe" class="cBox l">
+						<a href="#">综合</a>
+					</div>
+					<div id="pri" class="cBox l" >
+						<a href="#">
+							价格
+							<i class="iconfont">&#xe629;</i>
+						</a>
+					</div>
+					<div id="dc" class="cBox l">
+						<a href="#">
+							折扣
+							<san id="ic">
+								<p><i class="iconfont" >&#xe629;</i></p>
+								<p><i class="iconfont">&#xe62c;</i></p>
+							</span>
+						</a>
+					</div>
+					<div class="ls l">
+						<a href="#">
+							<input type="checkbox" id="lookShop"/>只看有货商品
+						</a>
+					</div>
+				</div>
+				<div id="collectR">
+					<span class="cNum">1182</span>件商品
+					<span id="num2" class="cNum">1</span>/6
+					<span id="before" class="same"><</span>
+					<a href="#" class="same">
+						下一页
+						<span>></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--动态创建的商品-->
+		<div id="goodsList">
+
+		</div>
+		<!--页码-->
+		<div id="page" class="c">
+			<div id="pageC">
+				<span class="allPage">共6页</span>
+				<a id="firstPage" class="aBox">1</a>
+				<a class="aBox">2</a>
+				<a class="aBox">3</a>
+				<a class="aBox">4</a>
+				<a class="aBox">5</a>
+				<a class="aBox">6</a>
+			</div>			
+		</div>
+		<div id="listLike" class="c">
+			<div id="likeBrand">
+				<span class="fc l">你可能喜欢的品牌</span>
+				<span class="fc r"><1/1></span>
+			</div>
+			<div class="lBox">
+				<img src="img/shopListPic/likeBrand.jpg" />
+				<div class="bBox">
+					<span class="ochF1 l">欧时力ochirly女装专场</span>
+					<span class="r">
+						<span class="dis2">2.4</span>
+						<span class="ochF2">折起</span>
+					</span>
+				</div>
+			</div>
+		</div>
+		<!--脚部-->
+		<footer>
+		
+		</footer>
+		<script>
+			$('header').load("commonHtml/header.html");
+			$('aside').load("commonHtml/sideBar.html");
+			$('footer').load("commonHtml/footer.html");
+		</script>
+	</body>
+</html>
